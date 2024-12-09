@@ -13,11 +13,11 @@ keymap for that layout.
 ,-----------------------------------------------------------------------------------.
 | Esc  |   Q  |   W  |   E  |   R  |   T  |   Y  |   U  |   I  |   O  |   P  | Bksp |
 |------+------+------+------+------+-------------+------+------+------+------+------|
-| Ctrl |   A  |   S  |   D  |   F  |   G  |   H  |   J  |   K  |   L  |   ;  |Enter |
+| `    |   A  |   S  |   D  |   F  |   G  |   H  |   J  |   K  |   L  |   ;  |Enter |
 |------+------+------+------+------+------|------+------+------+------+------+------|
 |      |   Z  |   X  |   C  |   V  |   B  |   N  |   M  |   ,  |   .  |   /  |      |
 |------+------+------+------+------+------+------+------+------+------+------+------|
-|      |      |      |      |Shift |Space |Raise | Alt  |      |      |      |      |
+|      |      |      |Lower |Shift |Space |Raise | Ctrl | Alt  |      |      |      |
 `-----------------------------------------------------------------------------------'
 ```
 
@@ -35,10 +35,25 @@ keymap for that layout.
 `-----------------------------------------------------------------------------------'
 ```
 
+ - The lower layer is like so:
+
+```
+,-----------------------------------------------------------------------------------.
+|   ~  |   !  |   @  |   #  |   $  |   %  |   ^  |   &  |   *  |   (  |   )  | Bksp |
+|------+------+------+------+------+-------------+------+------+------+------+------|
+|   |  |   <  |   >  |   -  |   _  |   '  |   "  |   =  |   +  |   [  |   ]  |  \   |
+|------+------+------+------+------+------|------+------+------+------+------+------|
+|      |      |      |      |      |      |      |      |      |      |      |      |
+|------+------+------+------+------+------+------+------+------+------+------+------|
+|      |      |      |      |      |      |      |      |      |      |      |      |
+`-----------------------------------------------------------------------------------'
+```
+
  - All of the blanks on the default layer have no effect, while all of
-   the blanks on the raise layer pass through to the default layer.
- - Moving shift to the thumb helps to keep the other fingers on the
-   home row, as well as avoiding the need to switch fingers when
-   shifting for the column for which the fifth finger would usually be
-   used.  Having to switch between shift and space on the left thumb
-   all the time is arguably not great, though.
+   the blanks on the raise and lower layers pass through to the
+   default layer.
+ - Moving shift and ctrl to the thumb helps to keep the other fingers
+   on the home row, as well as avoiding the need to switch fingers
+   when using the modifier along with the key that that finger would
+   usually be used for.  The thumb key allocation is probably not
+   optimal yet, though.
