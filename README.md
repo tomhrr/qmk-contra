@@ -5,8 +5,6 @@ keymap for that layout.
 
 ### Notes
 
- - Apart from the default layer, only one additional layer (accessed
-   via raise) is defined.
  - The default layer is like so:
 
 ```
